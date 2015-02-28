@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /home/vagrant/mist.io
-./bin/supervisord
+./bin/supervisord | echo "Already started"
