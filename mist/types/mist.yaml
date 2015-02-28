@@ -1,6 +1,6 @@
 node_types:
 
-  mist.nodes.MongoDatabase:
+  mist.nodes.Root:
     derived_from: cloudify.nodes.Root
     interfaces:
       cloudify.interfaces.lifecycle:

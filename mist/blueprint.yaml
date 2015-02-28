@@ -23,7 +23,7 @@ inputs:
 node_templates:
 
   mist:
-    type: mist.nodes.MongoDatabase
+    type: mist.nodes.Root
     relationships:
       - type: cloudify.relationships.contained_in
-        target: host
+        target: host_ip
