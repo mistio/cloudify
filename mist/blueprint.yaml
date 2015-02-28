@@ -24,3 +24,6 @@ node_templates:
 
   mist:
     type: mist.nodes.MongoDatabase
+    relationships:
+      - type: cloudify.relationships.contained_in
+        target: host
