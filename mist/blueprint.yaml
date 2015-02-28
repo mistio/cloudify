@@ -26,4 +26,3 @@ node_templates:
     type: mist.nodes.Root
     relationships:
       - type: cloudify.relationships.contained_in
-        target: host_ip
