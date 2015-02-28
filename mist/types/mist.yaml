@@ -1,0 +1,9 @@
+node_types:
+
+  mist.nodes.MongoDatabase:
+    derived_from: cloudify.nodes.Root
+    interfaces:
+      cloudify.interfaces.lifecycle:
+        create: scripts/install-mist.sh
+#        start: scripts/mongo/start-mongo.sh
+#        stop: scripts/mongo/stop-mongo.sh
